@@ -1,7 +1,7 @@
 export interface IDatosProyect{
     titulo:string,
     descripcion:string,
-    tecnologias?:string[],
+    tecnologias?:JSX.Element[],
     imagen:string,
     link?:string
 }

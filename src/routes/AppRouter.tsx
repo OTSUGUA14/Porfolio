@@ -12,7 +12,7 @@ function AppRouter() {
       <Navbar />
       <Arrow />
 
-      <div className="pt-24">
+      <div className="">
         <Routes>
           <Route element={<Main />} path="/" />
           <Route element={<SobreMi />} path="/sobre-mi" />
