@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router';
 export default function Footer() {
   const handleCopyToClipboard = () => {
-    const email = 'augusto.nicolas.riquelme@gmail.com';  // El texto que deseas copiar
+    const email = 'augusto.nicolas.riquelme@gmail.com';  
     navigator.clipboard.writeText(email)
       .then(() => {
         alert('Correo copiado al portapapeles');
@@ -18,7 +18,7 @@ export default function Footer() {
    
 
 
-<footer className=" bottom-0 left-0 z-20 w-full p-4 mt-10 bg-slate-950 border-t border-gray-200 shadow md:flex md:items-center md:justify-around md:p-8 dark:bg-gray-800 dark:border-gray-600 transition-all h-11">
+<footer className=" bottom-0 left-0 z-20 w-full h-full p-4 mt-10 bg-slate-950 border-t border-gray-200 shadow md:flex md:items-center md:justify-around md:p-8 dark:bg-gray-800 dark:border-gray-600 transition-all h-11">
     {/* <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400"> CONTACTOS
     </span> */}
     <ul className="flex flex-wrap items-center justify-center mt-3  text-3xl font-medium text-gray-500 dark:text-gray-400 sm:mt-0 space-x-5">
